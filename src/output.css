@@ -584,14 +584,6 @@ video {
   height: 10vw;
 }
 
-.w-full{
-  width: 100%;
-}
-
-.w-\[50\%\]{
-  width: 50%;
-}
-
 .w-\[30vw\]{
   width: 30vw;
 }
@@ -601,12 +593,12 @@ video {
   width: fit-content;
 }
 
-.cursor-pointer{
-  cursor: pointer;
+.w-full{
+  width: 100%;
 }
 
-.flex-wrap{
-  flex-wrap: wrap;
+.cursor-pointer{
+  cursor: pointer;
 }
 
 .justify-center{
@@ -659,11 +651,6 @@ video {
 
 .uppercase{
   text-transform: uppercase;
-}
-
-.text-black{
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 .text-white{
