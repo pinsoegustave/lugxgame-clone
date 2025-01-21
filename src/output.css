@@ -576,6 +576,42 @@ video {
   top: 0px;
 }
 
+.top-20{
+  top: 5rem;
+}
+
+.top-32{
+  top: 8rem;
+}
+
+.top-40{
+  top: 10rem;
+}
+
+.top-48{
+  top: 12rem;
+}
+
+.-top-5{
+  top: -1.25rem;
+}
+
+.-top-10{
+  top: -2.5rem;
+}
+
+.-top-32{
+  top: -8rem;
+}
+
+.top-10{
+  top: 2.5rem;
+}
+
+.bottom-0{
+  bottom: 0px;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -666,6 +702,30 @@ video {
 
 .h-\[25\%\]{
   height: 25%;
+}
+
+.h-\[90vw\]{
+  height: 90vw;
+}
+
+.h-\[50vw\]{
+  height: 50vw;
+}
+
+.h-\[40vw\]{
+  height: 40vw;
+}
+
+.h-\[45vw\]{
+  height: 45vw;
+}
+
+.h-\[42vw\]{
+  height: 42vw;
+}
+
+.h-\[10vh\]{
+  height: 10vh;
 }
 
 .w-20{
@@ -815,6 +875,16 @@ video {
   background-color: rgb(253 186 116 / var(--tw-bg-opacity, 1));
 }
 
+.bg-fuchsia-400{
+  --tw-bg-opacity: 1;
+  background-color: rgb(232 121 249 / var(--tw-bg-opacity, 1));
+}
+
+.bg-orange-100{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 237 213 / var(--tw-bg-opacity, 1));
+}
+
 .p-10{
   padding: 2.5rem;
 }
@@ -858,6 +928,26 @@ video {
 .py-9{
   padding-top: 2.25rem;
   padding-bottom: 2.25rem;
+}
+
+.py-20{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.py-12{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.py-14{
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.py-16{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .text-center{
@@ -1088,12 +1178,44 @@ input::placeholder {
     border-bottom-left-radius: 15%;
   }
 
+  .md\:rounded-b-xl{
+    border-bottom-right-radius: 0.75rem;
+    border-bottom-left-radius: 0.75rem;
+  }
+
+  .md\:rounded-b-\[10\%\]{
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+  }
+
+  .md\:rounded-b-\[20\%\]{
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+  }
+
+  .md\:rounded-b-\[12\%\]{
+    border-bottom-right-radius: 12%;
+    border-bottom-left-radius: 12%;
+  }
+
   .md\:text-center{
     text-align: center;
   }
 }
 
 @media (min-width: 1024px){
+  .lg\:-bottom-80{
+    bottom: -20rem;
+  }
+
+  .lg\:-bottom-72{
+    bottom: -18rem;
+  }
+
+  .lg\:-bottom-64{
+    bottom: -16rem;
+  }
+
   .lg\:w-\[47vw\]{
     width: 47vw;
   }
