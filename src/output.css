@@ -737,6 +737,38 @@ video {
   border-radius: 0.375rem;
 }
 
+.rounded-\[5\%\]{
+  border-radius: 5%;
+}
+
+.rounded-\[10\%\]{
+  border-radius: 10%;
+}
+
+.rounded-\[15\%\]{
+  border-radius: 15%;
+}
+
+.rounded-\[20\%\]{
+  border-radius: 20%;
+}
+
+.rounded-\[22\%\]{
+  border-radius: 22%;
+}
+
+.rounded-\[25\%\]{
+  border-radius: 25%;
+}
+
+.rounded-\[8\%\]{
+  border-radius: 8%;
+}
+
+.rounded-\[6\%\]{
+  border-radius: 6%;
+}
+
 .border{
   border-width: 1px;
 }
@@ -795,6 +827,16 @@ video {
   background-color: rgb(234 179 8 / var(--tw-bg-opacity, 1));
 }
 
+.bg-slate-300{
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity, 1));
+}
+
+.bg-slate-200{
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity, 1));
+}
+
 .p-10{
   padding: 2.5rem;
 }
@@ -847,6 +889,14 @@ video {
 .py-24{
   padding-top: 6rem;
   padding-bottom: 6rem;
+}
+
+.pb-10{
+  padding-bottom: 2.5rem;
+}
+
+.pb-12{
+  padding-bottom: 3rem;
 }
 
 .text-center{
