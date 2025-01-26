@@ -665,6 +665,42 @@ video {
   height: 54vw;
 }
 
+.h-\[56vh\]{
+  height: 56vh;
+}
+
+.h-\[58vh\]{
+  height: 58vh;
+}
+
+.h-\[60vh\]{
+  height: 60vh;
+}
+
+.h-\[60\%\]{
+  height: 60%;
+}
+
+.h-\[30vh\]{
+  height: 30vh;
+}
+
+.h-\[20vh\]{
+  height: 20vh;
+}
+
+.h-\[24vh\]{
+  height: 24vh;
+}
+
+.h-\[32vh\]{
+  height: 32vh;
+}
+
+.h-\[28vh\]{
+  height: 28vh;
+}
+
 .w-20{
   width: 5rem;
 }
@@ -689,12 +725,36 @@ video {
   width: 100%;
 }
 
+.w-32{
+  width: 8rem;
+}
+
+.w-52{
+  width: 13rem;
+}
+
+.w-44{
+  width: 11rem;
+}
+
+.w-48{
+  width: 12rem;
+}
+
 .cursor-pointer{
   cursor: pointer;
 }
 
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-6{
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.items-center{
+  align-items: center;
 }
 
 .justify-end{
@@ -711,6 +771,18 @@ video {
 
 .gap-10{
   gap: 2.5rem;
+}
+
+.gap-3{
+  gap: 0.75rem;
+}
+
+.gap-4{
+  gap: 1rem;
+}
+
+.gap-6{
+  gap: 1.5rem;
 }
 
 .gap-y-10{
@@ -751,6 +823,10 @@ video {
 
 .rounded-\[15\%\]{
   border-radius: 15%;
+}
+
+.rounded-xl{
+  border-radius: 0.75rem;
 }
 
 .border{
